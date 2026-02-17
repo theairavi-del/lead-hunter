@@ -1,0 +1,25 @@
+[
+  {
+    "source": "reddit",
+    "sourceName": "r/web_design",
+    "title": "Personal brand website for content creator",
+    "description": "YouTuber looking for sleek personal website. Need blog, video embeds, newsletter signup. Budget $800-1200.",
+    "tags": [
+      "Personal Brand",
+      "Content",
+      "$800-1200",
+      "Blog"
+    ],
+    "intent": "medium",
+    "budget": "$800-1200",
+    "designMockup": "\u2728",
+    "designNotes": "Modern personal brand site, video integration, blog grid, newsletter capture. Bold typography and social links.",
+    "id": "demo_20260217142607_9514",
+    "timestamp": "2026-02-17T14:26:07.007496",
+    "url": "https://reddit.com/r/web_design/comments/demo72646",
+    "author": "user_88585",
+    "score": 16,
+    "contacted": false,
+    "notes": ""
+  }
+]
