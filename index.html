@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev Lead Tracker | Client Acquisition Dashboard</title>
+    <meta name="description" content="Automated lead generation dashboard for web development clients">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        :root {
+            --accent: #2DD512;
+            --bg: #0a0a0a;
+            --surface: #111111;
+            --surface-hover: #1a1a1a;
+            --text: #ffffff;
+            --text-secondary: #888888;
+            --border: #222222;
+            --reddit: #FF4500;
+            --twitter: #1DA1F2;
+            --linkedin: #0A66C2;
+            --indiehackers: #0e3bd6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* HEADER */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 70px;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+            z-index: 1000;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+
+        .logo-dot {
+            width: 12px;
+            height: 12px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; box-shadow: 0 0 10px var(--accent); }
+            50% { opacity: 0.5; box-shadow: 0 0 20px var(--accent); }
+        }
+
+        .status-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--surface);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        /* MAIN */
+        .main {
+            padding-top: 100px;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 100px;
+        }
+
+        /* HERO */
+        .hero {
+            text-align: center;
+            padding: 40px 0 60px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 40px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #fff 0%, #888 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            color: var(--text-secondary);
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* STATS */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .stat-card h3 {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 8px;
+        }
+
+        .stat-card p {
+            color: var(--text-secondary);
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* FILTERS */
+        .filters {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 10px 20px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            color: var(--text-secondary);
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--accent);
+            color: var(--text);
+        }
+
+        .filter-btn.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: #000;
+        }
+
+        /* LEADS GRID */
+        .leads-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 20px;
+        }
+
+        .lead-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .lead-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-4px);
+        }
+
+        .lead-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .lead-source {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .source-reddit { color: var(--reddit); }
+        .source-twitter { color: var(--twitter); }
+        .source-linkedin { color: var(--linkedin); }
+        .source-indiehackers { color: var(--indiehackers); }
+
+        .lead-time {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        .lead-content {
+            padding: 20px;
+        }
+
+        .lead-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .lead-desc {
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 16px;
+        }
+
+        .lead-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .tag {
+            padding: 4px 12px;
+            background: rgba(45, 213, 18, 0.1);
+            color: var(--accent);
+            border-radius: 12px;
+            font-size: 11px;
+            letter-spacing: 0.5px;
+        }
+
+        .lead-actions {
+            display: flex;
+            gap: 12px;
+            padding: 0 20px 20px;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 12px 20px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 500;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.2s;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: #000;
+        }
+
+        .btn-primary:hover {
+            transform: scale(1.02);
+        }
+
+        .btn-secondary {
+            background: var(--surface-hover);
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent);
+        }
+
+        /* DESIGN PREVIEW */
+        .design-preview {
+            margin: 20px;
+            padding: 16px;
+            background: var(--bg);
+            border-radius: 12px;
+            border: 1px dashed var(--border);
+        }
+
+        .design-preview h4 {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        .design-mockup {
+            aspect-ratio: 16/10;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+        }
+
+        .design-notes {
+            margin-top: 12px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* EMPTY STATE */
+        .empty-state {
+            text-align: center;
+            padding: 100px 20px;
+            color: var(--text-secondary);
+        }
+
+        .empty-state-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+
+        .empty-state h3 {
+            font-size: 24px;
+            color: var(--text);
+            margin-bottom: 12px;
+        }
+
+        /* FOOTER */
+        .footer {
+            border-top: 1px solid var(--border);
+            padding: 40px;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 900px) {
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .leads-grid {
+                grid-template-columns: 1fr;
+            }
+            .header {
+                padding: 0 20px;
+            }
+            .main {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <div class="logo-dot"></div>
+            LEAD HUNTER
+        </div>
+        <div class="status-badge">
+            <div class="status-dot"></div>
+            Auto-Scan Active
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <h1>Web Dev Lead Tracker</h1>
+            <p>Automated discovery of people needing websites across Reddit, Twitter, LinkedIn, and Indie Hackers. Updated hourly.</p>
+        </section>
+
+        <section class="stats">
+            <div class="stat-card">
+                <h3 id="totalLeads">0</h3>
+                <p>Total Leads</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="todayLeads">0</h3>
+                <p>Today</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="redditLeads">0</h3>
+                <p>From Reddit</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="highIntent">0</h3>
+                <p>High Intent</p>
+            </div>
+        </section>
+
+        <section class="filters">
+            <button class="filter-btn active" data-filter="all">All Sources</button>
+            <button class="filter-btn" data-filter="reddit">Reddit</button>
+            <button class="filter-btn" data-filter="twitter">Twitter</button>
+            <button class="filter-btn" data-filter="linkedin">LinkedIn</button>
+            <button class="filter-btn" data-filter="indiehackers">Indie Hackers</button>
+            <button class="filter-btn" data-filter="high-intent">High Intent Only</button>
+        </section>
+
+        <section class="leads-grid" id="leadsContainer">
+            <!-- Leads will be populated here -->
+        </section>
+
+        <div class="empty-state" id="emptyState" style="display: none;">
+            <div class="empty-state-icon">🔍</div>
+            <h3>No leads found</h3>
+            <p>The system is scanning for new opportunities. Check back soon!</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Lead Hunter v1.0 • Scanning every hour • Last update: <span id="lastUpdate">Never</span></p>
+    </footer>
+
+    <script>
+        // Sample lead data structure
+        const sampleLeads = [
+            {
+                id: 1,
+                source: 'reddit',
+                sourceName: 'r/webdev',
+                title: 'Need a portfolio website for my photography business',
+                description: 'Looking for someone to build a clean, minimalist portfolio site. Budget is $500-800. Need it within 2 weeks.',
+                url: 'https://reddit.com/r/webdev/comments/example',
+                timestamp: new Date().toISOString(),
+                tags: ['Portfolio', 'Photography', '$500-800', '2 weeks'],
+                intent: 'high',
+                designMockup: '📸',
+                designNotes: 'Minimalist gallery layout, lightbox feature, contact form, about section. Mobile-first approach.'
+            },
+            {
+                id: 2,
+                source: 'reddit',
+                sourceName: 'r/forhire',
+                title: 'Startup needs landing page for SaaS product',
+                description: 'We\'re launching a new productivity tool and need a converting landing page. Have copy ready, need design + dev.',
+                url: 'https://reddit.com/r/forhire/comments/example',
+                timestamp: new Date(Date.now() - 3600000).toISOString(),
+                tags: ['Landing Page', 'SaaS', 'Conversion', 'Startup'],
+                intent: 'high',
+                designMockup: '🚀',
+                designNotes: 'Hero with product screenshot, feature grid, pricing section, CTA buttons. Dark mode option.'
+            },
+            {
+                id: 3,
+                source: 'indiehackers',
+                sourceName: 'Indie Hackers',
+                title: 'Looking for web dev to build MVP',
+                description: 'Have validated my idea, now need someone to build the MVP. Budget $2k-3k. React preferred.',
+                url: 'https://indiehackers.com/post/example',
+                timestamp: new Date(Date.now() - 7200000).toISOString(),
+                tags: ['MVP', 'React', '$2k-3k', 'Startup'],
+                intent: 'high',
+                designMockup: '💡',
+                designNotes: 'Dashboard interface, user auth, database integration. Clean UI with focus on usability.'
+            }
+        ];
+
+        // Load leads from localStorage or use sample
+        let leads = JSON.parse(localStorage.getItem('leads')) || sampleLeads;
+        let currentFilter = 'all';
+
+        function renderLeads() {
+            const container = document.getElementById('leadsContainer');
+            const emptyState = document.getElementById('emptyState');
+            
+            let filteredLeads = leads;
+            if (currentFilter !== 'all') {
+                if (currentFilter === 'high-intent') {
+                    filteredLeads = leads.filter(l => l.intent === 'high');
+                } else {
+                    filteredLeads = leads.filter(l => l.source === currentFilter);
+                }
+            }
+
+            if (filteredLeads.length === 0) {
+                container.innerHTML = '';
+                emptyState.style.display = 'block';
+                return;
+            }
+
+            emptyState.style.display = 'none';
+            
+            container.innerHTML = filteredLeads.map(lead => `
+                <article class="lead-card" data-source="${lead.source}">
+                    <div class="lead-header">
+                        <span class="lead-source source-${lead.source}">${lead.sourceName}</span>
+                        <span class="lead-time">${timeAgo(lead.timestamp)}</span>
+                    </div>
+                    <div class="lead-content">
+                        <h3 class="lead-title">${lead.title}</h3>
+                        <p class="lead-desc">${lead.description}</p>
+                        <div class="lead-tags">
+                            ${lead.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                        </div>
+                    </div>
+                    <div class="design-preview">
+                        <h4>AI Design Concept</h4>
+                        <div class="design-mockup">${lead.designMockup}</div>
+                        <p class="design-notes">${lead.designNotes}</p>
+                    </div>
+                    <div class="lead-actions">
+                        <a href="${lead.url}" target="_blank" class="btn btn-primary">View Original Post</a>
+                        <button class="btn btn-secondary" onclick="markContacted(${lead.id})">Mark Contacted</button>
+                    </div>
+                </article>
+            `).join('');
+
+            updateStats();
+        }
+
+        function timeAgo(timestamp) {
+            const seconds = Math.floor((new Date() - new Date(timestamp)) / 1000);
+            if (seconds < 60) return 'Just now';
+            const minutes = Math.floor(seconds / 60);
+            if (minutes < 60) return `${minutes}m ago`;
+            const hours = Math.floor(minutes / 60);
+            if (hours < 24) return `${hours}h ago`;
+            return `${Math.floor(hours / 24)}d ago`;
+        }
+
+        function updateStats() {
+            document.getElementById('totalLeads').textContent = leads.length;
+            document.getElementById('redditLeads').textContent = leads.filter(l => l.source === 'reddit').length;
+            document.getElementById('highIntent').textContent = leads.filter(l => l.intent === 'high').length;
+            
+            const today = new Date().toDateString();
+            const todayCount = leads.filter(l => new Date(l.timestamp).toDateString() === today).length;
+            document.getElementById('todayLeads').textContent = todayCount;
+            
+            const lastUpdate = localStorage.getItem('lastUpdate');
+            if (lastUpdate) {
+                document.getElementById('lastUpdate').textContent = timeAgo(lastUpdate);
+            }
+        }
+
+        function markContacted(id) {
+            const lead = leads.find(l => l.id === id);
+            if (lead) {
+                lead.contacted = true;
+                localStorage.setItem('leads', JSON.stringify(leads));
+                alert(`Marked "${lead.title}" as contacted!`);
+            }
+        }
+
+        // Filter buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilter = btn.dataset.filter;
+                renderLeads();
+            });
+        });
+
+        // Initial render
+        renderLeads();
+
+        // Simulate receiving new leads (in real app, this would be from API)
+        window.addNewLead = function(lead) {
+            leads.unshift({
+                ...lead,
+                id: Date.now(),
+                timestamp: new Date().toISOString()
+            });
+            localStorage.setItem('leads', JSON.stringify(leads));
+            localStorage.setItem('lastUpdate', new Date().toISOString());
+            renderLeads();
+        };
+    </script>
+</body>
+</html>
