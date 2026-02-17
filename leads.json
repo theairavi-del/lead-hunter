@@ -1,5 +1,808 @@
 [
   {
+    "id": "reddit_1r7evx6",
+    "source": "reddit",
+    "sourceName": "r/webdev",
+    "title": "help me get my website back?",
+    "description": "hey y'all! i used to run a small music journalism website based on the local seattle music scene. i took the site down for a while but want to get it back up. long story short, i don't understand how the internet works and lost my whole site. i was hosting with hostgator and stopped paying for it an...",
+    "url": "https://reddit.com/r/webdev/comments/1r7evx6/help_me_get_my_website_back/",
+    "author": "catMacaulayCulkin",
+    "timestamp": "2026-02-17T14:28:54.444070",
+    "tags": [
+      "WordPress"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 8,
+    "designMockup": "\ud83d\uded2",
+    "designNotes": "Product grid layout, shopping cart, checkout flow, payment integration. Mobile-optimized.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7eklc",
+    "source": "reddit",
+    "sourceName": "r/webdev",
+    "title": "Am I a vibecoder",
+    "description": "Bit of context I am computer science graduate with 2YOE in full stack development in MERN. I recently picked up nextjs and have been working on it. I also do a lot of freelancing on the side. \n\nSo I hate making html structure like a div with 2 rows which has might have x columns in the first row and...",
+    "url": "https://reddit.com/r/webdev/comments/1r7eklc/am_i_a_vibecoder/",
+    "author": "drakness110",
+    "timestamp": "2026-02-17T14:28:54.444177",
+    "tags": [
+      "Website"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7ebo3",
+    "source": "reddit",
+    "sourceName": "r/webdev",
+    "title": "Honest Feedback: Is My Web App Clear?",
+    "description": "I was wondering if a random user came across my website, would it be clear what my web app does, how to sign up, and how to get started. I added a tutorial component to help with how to navigate the website for first time users. \n\n  \nProblem: The whole website seems clear to me because I made it and...",
+    "url": "https://reddit.com/r/webdev/comments/1r7ebo3/honest_feedback_is_my_web_app_clear/",
+    "author": "Prudent-Training8535",
+    "timestamp": "2026-02-17T14:28:54.444246",
+    "tags": [
+      "Landing Page"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\ude80",
+    "designNotes": "Hero with product demo, feature sections, pricing cards. CTA-focused, conversion optimized.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7btvs",
+    "source": "reddit",
+    "sourceName": "r/webdev",
+    "title": "How to manage state and retries in long-running AI workflows",
+    "description": "I\u2019m dealing with a backend problem in a web application where some AI-driven workflows run longer than a single request and consist of multiple steps.\n\nCurrent setup is roughly: a web request triggers a background task, which may call external services, perform several actions, and sometimes needs t...",
+    "url": "https://reddit.com/r/webdev/comments/1r7btvs/how_to_manage_state_and_retries_in_longrunning_ai/",
+    "author": "Interesting_Ride2443",
+    "timestamp": "2026-02-17T14:28:54.444427",
+    "tags": [
+      "Website"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r79mo6",
+    "source": "reddit",
+    "sourceName": "r/webdev",
+    "title": "Weather API recommendations for 5-minute precipitation forecasts",
+    "description": "I am developing a weather app for iOS and want to add notification alerts like:  \n\u201cRain expected at 4:40PM. Stopping around 5:15PM.\u201d\n\nFor that, I\u2019m looking for an affordable weather API that provides reasonably accurate precipitation forecasts for the next \\~3 hours at 5-minute intervals, mainly for...",
+    "url": "https://reddit.com/r/webdev/comments/1r79mo6/weather_api_recommendations_for_5minute/",
+    "author": "Historical_Concern64",
+    "timestamp": "2026-02-17T14:28:54.444549",
+    "tags": [
+      "Website"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r78ruu",
+    "source": "reddit",
+    "sourceName": "r/webdev",
+    "title": "What\u2019s the best tool for quickly building a personal website? Free is better",
+    "description": "I just finalized the idea for my own online store last week, and now I\u2019m at the stage where I actually need to build the site. I\u2019m hoping for something that looks fairly professional and is stable enough to not break all the time, since I don\u2019t really want to babysit it every day.\n\nI did ask a coupl...",
+    "url": "https://reddit.com/r/webdev/comments/1r78ruu/whats_the_best_tool_for_quickly_building_a/",
+    "author": "Any-Farm-1033",
+    "timestamp": "2026-02-17T14:28:54.444642",
+    "tags": [
+      "E-commerce"
+    ],
+    "intent": "high",
+    "budget": "budget,",
+    "score": 16,
+    "designMockup": "\ud83d\uded2",
+    "designNotes": "Product grid layout, shopping cart, checkout flow, payment integration. Mobile-optimized.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7fimi",
+    "source": "reddit",
+    "sourceName": "r/forhire",
+    "title": "[Hiring] (Bulgaria/Balkans - Remote/Hybrid) Senior Full-Stack Developer - Django/React - $2000-3000/",
+    "description": "**Location:** Sofia, Bulgaria (hybrid) or remote within Bulgaria/Balkans region\n\n**About Lexis Solutions**\n\nWe're an end-to-end software development company building modern digital products for growing businesses and established tech-driven companies worldwide. We work closely with founders, CTOs, a...",
+    "url": "https://reddit.com/r/forhire/comments/1r7fimi/hiring_bulgariabalkans_remotehybrid_senior/",
+    "author": "00Bands",
+    "timestamp": "2026-02-17T14:28:56.826312",
+    "tags": [
+      "Portfolio",
+      "React",
+      "SaaS"
+    ],
+    "intent": "high",
+    "budget": "$2000",
+    "score": 16,
+    "designMockup": "\ud83d\udcf8",
+    "designNotes": "Gallery-focused layout, lightbox for images, about section, contact form. Clean typography, image-first design.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7f0tw",
+    "source": "reddit",
+    "sourceName": "r/forhire",
+    "title": "[For Hire] Senior Data &amp; MLOps Engineer | $55/hr | Full EMEA Overlap (Available until 9 PM IST)",
+    "description": "\nHi everyone! I am a Senior Data Engineer and MLOps Specialist with over 9 years of experience. I am specifically looking for roles within the EMEA region where I can provide full-day collaboration (available until 9 PM IST / ~4 PM CET / ~3 PM GMT).  \nI have a proven track record of building scalabl...",
+    "url": "https://reddit.com/r/forhire/comments/1r7f0tw/for_hire_senior_data_mlops_engineer_55hr_full/",
+    "author": "mcheetirala2510",
+    "timestamp": "2026-02-17T14:28:56.826523",
+    "tags": [
+      "Website"
+    ],
+    "intent": "medium",
+    "budget": "$55",
+    "score": 10,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7f02x",
+    "source": "reddit",
+    "sourceName": "r/forhire",
+    "title": "[HIRING] Background Artist for Mixed-Medium Short Film ($500)",
+    "description": "Hey everyone,\n\nI\u2019m part of a small, student-led film team based in New York City, made up mostly of NYU Dramatic Writing students. We\u2019re in post-production on a mixed-medium short film called *The Intercessor* that blends live action, animation, and claymation.\n\nAll of the live-action scenes have al...",
+    "url": "https://reddit.com/r/forhire/comments/1r7f02x/hiring_background_artist_for_mixedmedium_short/",
+    "author": "Mast3r-Sp4nky",
+    "timestamp": "2026-02-17T14:28:56.826653",
+    "tags": [
+      "Portfolio"
+    ],
+    "intent": "high",
+    "budget": "$500",
+    "score": 16,
+    "designMockup": "\ud83d\udcf8",
+    "designNotes": "Gallery-focused layout, lightbox for images, about section, contact form. Clean typography, image-first design.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7essa",
+    "source": "reddit",
+    "sourceName": "r/forhire",
+    "title": "[HIRING] US-Based TikTok Account Social Media Assistant (Daily Posting - Simple &amp; Recurring)",
+    "description": "We\u2019re looking for reliable, detail-oriented individuals based in the United States to help manage TikTok accounts for consumer mobile apps.\n\nThis role is execution-focused. You will follow clear instructions, no strategy, editing, or brainstorming required.\n\n**Responsibilities**\n\n* Create and warm u...",
+    "url": "https://reddit.com/r/forhire/comments/1r7essa/hiring_usbased_tiktok_account_social_media/",
+    "author": "True-Sign7968",
+    "timestamp": "2026-02-17T14:28:56.826790",
+    "tags": [
+      "Website"
+    ],
+    "intent": "high",
+    "budget": "$50",
+    "score": 19,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7erin",
+    "source": "reddit",
+    "sourceName": "r/forhire",
+    "title": "[for hire] I'LL MAKE YOUR SOCIAL MEDIA GROW",
+    "description": "Are you exhausted from making every single post, scheduling every story, and trying to grow your Instagram or TikTok with little to no results? I get it\u2014social media can be overwhelming.\n\nI've grown various pages and currently manage some with thousands of people, I handle content creation, posting ...",
+    "url": "https://reddit.com/r/forhire/comments/1r7erin/for_hire_ill_make_your_social_media_grow/",
+    "author": "Dry-Data-2570",
+    "timestamp": "2026-02-17T14:28:56.826922",
+    "tags": [
+      "E-commerce"
+    ],
+    "intent": "medium",
+    "budget": "50k",
+    "score": 10,
+    "designMockup": "\ud83d\uded2",
+    "designNotes": "Product grid layout, shopping cart, checkout flow, payment integration. Mobile-optimized.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7ecdu",
+    "source": "reddit",
+    "sourceName": "r/forhire",
+    "title": "[For Hire] Secure and debug your AI-enabled applications and projects",
+    "description": "Software engineer available to debug and secure your AI-enabled applications and projects starting at $699  \nAll models and programming languages accepted  \nEnquire for custom rates/offers",
+    "url": "https://reddit.com/r/forhire/comments/1r7ecdu/for_hire_secure_and_debug_your_aienabled/",
+    "author": "Enchantorro",
+    "timestamp": "2026-02-17T14:28:56.826988",
+    "tags": [
+      "Website"
+    ],
+    "intent": "medium",
+    "budget": "$699",
+    "score": 10,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7dcvm",
+    "source": "reddit",
+    "sourceName": "r/forhire",
+    "title": "[For Hire] Excel, Google Sheets &amp; Data Automation -- macros, dashboards, cleanup | $25+",
+    "description": "Drowning in spreadsheets? I automate the boring stuff.\n\n**What I do:**\n- Excel/Google Sheets macros and formulas (VBA, Apps Script)\n- Data cleanup and formatting (messy CSV -&gt; clean database)\n- Automated dashboards and reports\n- Data migration between systems\n- Web data -&gt; spreadsheet pipeline...",
+    "url": "https://reddit.com/r/forhire/comments/1r7dcvm/for_hire_excel_google_sheets_data_automation/",
+    "author": "Virtual-Breath-4934",
+    "timestamp": "2026-02-17T14:28:56.827028",
+    "tags": [
+      "Website"
+    ],
+    "intent": "medium",
+    "budget": "$25",
+    "score": 13,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7dbpp",
+    "source": "reddit",
+    "sourceName": "r/forhire",
+    "title": "[For Hire] AI/ChatGPT integration &amp; automation -- custom AI tools for your business | $75+",
+    "description": "I build custom AI-powered tools and automations using ChatGPT, Claude, and open-source models.\n\n**What I build:**\n- Custom AI chatbots for your website/app (customer support, sales, FAQ)\n- AI-powered content generation pipelines\n- Document processing automation (summarize, extract, classify)\n- AI ag...",
+    "url": "https://reddit.com/r/forhire/comments/1r7dbpp/for_hire_aichatgpt_integration_automation_custom/",
+    "author": "Virtual-Breath-4934",
+    "timestamp": "2026-02-17T14:28:56.827074",
+    "tags": [
+      "Website"
+    ],
+    "intent": "medium",
+    "budget": "$75",
+    "score": 13,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7cul2",
+    "source": "reddit",
+    "sourceName": "r/forhire",
+    "title": "[FOR HIRE] Virtual Assistant | Shopify Management | ChatGPT Content Support | $15/hr",
+    "description": "Hi! I\u2019m looking for remote work opportunities as a Virtual Assistant or Online Support Assistant.\n\nI have 1.5 years of remote work experience and I\u2019m skilled in:\n\u2022 Shopify store management (product uploads, descriptions, order handling)\n\u2022 Using ChatGPT and other AI tools for content writing, caption...",
+    "url": "https://reddit.com/r/forhire/comments/1r7cul2/for_hire_virtual_assistant_shopify_management/",
+    "author": "Imaginary_Agency_176",
+    "timestamp": "2026-02-17T14:28:56.827140",
+    "tags": [
+      "E-commerce"
+    ],
+    "intent": "medium",
+    "budget": "$15",
+    "score": 10,
+    "designMockup": "\ud83d\uded2",
+    "designNotes": "Product grid layout, shopping cart, checkout flow, payment integration. Mobile-optimized.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7clmv",
+    "source": "reddit",
+    "sourceName": "r/forhire",
+    "title": "[For Hire] YouTube Thumbnails USD12 | 3 Styles to choose from: Portfolio - https://imgur.com/gallery",
+    "description": "3 Styles to pick from:\n\nClean, Serious, Documentary: USD$12\n\nShock Meme: USD$17\n\nRetro TV: USD$29\n\nPortfolio: [https://imgur.com/gallery/youtube-thumbnails-3-styles-10-32-usd-portfolio-aZ6ci5G](https://imgur.com/gallery/youtube-thumbnails-3-styles-10-32-usd-portfolio-aZ6ci5G)30h PNG delivery | 1-3 r...",
+    "url": "https://reddit.com/r/forhire/comments/1r7clmv/for_hire_youtube_thumbnails_usd12_3_styles_to/",
+    "author": "Garlic_Epic",
+    "timestamp": "2026-02-17T14:28:56.827197",
+    "tags": [
+      "Portfolio"
+    ],
+    "intent": "medium",
+    "budget": "$12",
+    "score": 13,
+    "designMockup": "\ud83d\udcf8",
+    "designNotes": "Gallery-focused layout, lightbox for images, about section, contact form. Clean typography, image-first design.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7c2ne",
+    "source": "reddit",
+    "sourceName": "r/forhire",
+    "title": "[Hiring] Remote - Google Sheets / Excel expert - Build out digital tracker and planner",
+    "description": "**Project Overview:** I am looking for a spreadsheet power user to translate a completed **Figma design** into a fully functional digital tracker/planner. The layout and UX are already defined; I need someone to build the \"engine\" and ensure the aesthetic matches the design.\n\n**Key Responsibilities:...",
+    "url": "https://reddit.com/r/forhire/comments/1r7c2ne/hiring_remote_google_sheets_excel_expert_build/",
+    "author": "TeamHuman_",
+    "timestamp": "2026-02-17T14:28:56.827262",
+    "tags": [
+      "Website"
+    ],
+    "intent": "high",
+    "budget": "$50",
+    "score": 16,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7bvna",
+    "source": "reddit",
+    "sourceName": "r/forhire",
+    "title": "[FOR HIRE] Virtual Assistant | CSR | Social Media &amp; Video Support | Funnel &amp; CRM Management",
+    "description": "If you need someone who doesn\u2019t just \u201cdo tasks\u201d but actually understands how your business works \u2014 I\u2019m your guy.\n\nI\u2019m a Virtual Assistant and Customer Service Representative with hands-on experience supporting online businesses, content creators, and service-based brands.\n\nI don\u2019t disappear.\nI don\u2019t...",
+    "url": "https://reddit.com/r/forhire/comments/1r7bvna/for_hire_virtual_assistant_csr_social_media_video/",
+    "author": "YowRaan",
+    "timestamp": "2026-02-17T14:28:56.827414",
+    "tags": [
+      "Portfolio"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\udcf8",
+    "designNotes": "Gallery-focused layout, lightbox for images, about section, contact form. Clean typography, image-first design.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7bswj",
+    "source": "reddit",
+    "sourceName": "r/forhire",
+    "title": "[For Hire] Web Scraping, Automation &amp; AI Integration -- custom scripts, bots, data pipelines | $",
+    "description": "Need data from a website? Want to automate a repetitive task? I'll handle it.\n\n**What I do:**\n- **Web Scraping:** E-commerce, social media, job boards, real estate, any public website. Clean CSV/JSON/Excel output.\n- **Automation:** Social media scheduling, email workflows, file management, price mon...",
+    "url": "https://reddit.com/r/forhire/comments/1r7bswj/for_hire_web_scraping_automation_ai_integration/",
+    "author": "Virtual-Breath-4934",
+    "timestamp": "2026-02-17T14:28:56.827492",
+    "tags": [
+      "Website"
+    ],
+    "intent": "medium",
+    "budget": "$30",
+    "score": 13,
+    "designMockup": "\ud83c\udfe0",
+    "designNotes": "Property listings, search filters, agent profiles. Professional luxury design.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7bo9s",
+    "source": "reddit",
+    "sourceName": "r/forhire",
+    "title": "[For Hire] Remote Sales &amp; Operations Support | Experienced, Reliable, and Affordable!",
+    "description": "I\u2019m a remote professional with experience in administrative assistance, data management, and sales support. I\u2019ve worked remotely before, so im comfortable managing tasks, staying organized, and keeping operations running smoothly from anywhere.\n\nHere\u2019s what I can help you with:\n\nVirtual Assistance: ...",
+    "url": "https://reddit.com/r/forhire/comments/1r7bo9s/for_hire_remote_sales_operations_support/",
+    "author": "notarandomgirl0509",
+    "timestamp": "2026-02-17T14:28:56.827577",
+    "tags": [
+      "Website"
+    ],
+    "intent": "medium",
+    "budget": "$15",
+    "score": 13,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7g04q",
+    "source": "reddit",
+    "sourceName": "r/smallbusiness",
+    "title": "The advice that actually hurt my business (that everyone keeps giving)",
+    "description": "\"Just focus on sales.\"\n\nHeard it from investors. Mentors. Other founders. Every time we had a problem, someone said this.\n\nRevenue was stuck. \"Focus on sales.\"  \nTeam was chaotic. \"Focus on sales.\"  \nCustomers were churning. \"Focus on sales.\"\n\nSo we did. Hired two more reps. Ran more outbound. Pushe...",
+    "url": "https://reddit.com/r/smallbusiness/comments/1r7g04q/the_advice_that_actually_hurt_my_business_that/",
+    "author": "Cory_simon_986",
+    "timestamp": "2026-02-17T14:28:59.283727",
+    "tags": [
+      "Website"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7fh2x",
+    "source": "reddit",
+    "sourceName": "r/smallbusiness",
+    "title": "Finally got my small business website sorted, sharing what worked for me",
+    "description": "Hey everyone, so i've been running my little side hustle for about a year now, and honestly, the website part was always a nightmare. i tried doing it myself with one of those drag-and-drop builders and it just looked... amateur. like, embarrassingly bad.\n\nAfter procrastinating for ages, i bit the b...",
+    "url": "https://reddit.com/r/smallbusiness/comments/1r7fh2x/finally_got_my_small_business_website_sorted/",
+    "author": "aamond26",
+    "timestamp": "2026-02-17T14:28:59.283872",
+    "tags": [
+      "Website"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7faji",
+    "source": "reddit",
+    "sourceName": "r/smallbusiness",
+    "title": "Spent 5 months building &amp; selling a SaaS, and the result: nothing... What should I do next? Look",
+    "description": "Hi guys, I really need your advice.\n\nAfter graduating from university, I worked in tech investment banking and realized that it wasn't really for me. After representing all these beautiful SaaS and AI companies generating between $5M and $350M in ARR, I couldn't stop fantasizing about starting my ow...",
+    "url": "https://reddit.com/r/smallbusiness/comments/1r7faji/spent_5_months_building_selling_a_saas_and_the/",
+    "author": "XxMut4bleeye92x",
+    "timestamp": "2026-02-17T14:28:59.284017",
+    "tags": [
+      "SaaS",
+      "MVP"
+    ],
+    "intent": "high",
+    "budget": "$5",
+    "score": 16,
+    "designMockup": "\ud83d\ude80",
+    "designNotes": "Hero with product demo, feature sections, pricing cards. CTA-focused, conversion optimized.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7f2hz",
+    "source": "reddit",
+    "sourceName": "r/smallbusiness",
+    "title": "How do I scale to $10k/month?",
+    "description": "I\u2019m looking for some realistic advice on where to focus my energy. My goal is to build a business that can eventually reach a $10k/month profit.\n\nHere is the catch: I have zero coding skills. What I do have:\n\nI\u2019m a published author/novelist. I understand narrative, hooks, and how to keep people read...",
+    "url": "https://reddit.com/r/smallbusiness/comments/1r7f2hz/how_do_i_scale_to_10kmonth/",
+    "author": "Spirited_Manager_831",
+    "timestamp": "2026-02-17T14:28:59.284110",
+    "tags": [
+      "Website"
+    ],
+    "intent": "medium",
+    "budget": "$10k",
+    "score": 10,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7fzts",
+    "source": "reddit",
+    "sourceName": "r/Entrepreneur",
+    "title": "How much about sales tax should every entrepreneur know?",
+    "description": "Nexus is everything: It\u2019s not just where your office is. Physical presence (inventory in an FBA warehouse) or economic nexus (hitting a sales threshold like $100k or 200 transactions in a state) triggers your obligation to collect.\n\nIt\u2019s not your money: You are a \"trustee.\" If you collect tax and sp...",
+    "url": "https://reddit.com/r/Entrepreneur/comments/1r7fzts/how_much_about_sales_tax_should_every/",
+    "author": "JaredRJM",
+    "timestamp": "2026-02-17T14:29:01.615115",
+    "tags": [
+      "SaaS"
+    ],
+    "intent": "medium",
+    "budget": "$100k",
+    "score": 10,
+    "designMockup": "\ud83d\ude80",
+    "designNotes": "Hero with product demo, feature sections, pricing cards. CTA-focused, conversion optimized.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7dmh1",
+    "source": "reddit",
+    "sourceName": "r/Entrepreneur",
+    "title": "Small-Mid size business owners: what cold outreach would actually make you answer and share your pai",
+    "description": "Hey guy, I've recently been cold calling people about my business and 90% of them had either no time to give me enough answers for my questions, or they didn't want to. the process was basically customer discover. I\u2019m trying to learn how businesses actually like to be approached by strangers online ...",
+    "url": "https://reddit.com/r/Entrepreneur/comments/1r7dmh1/smallmid_size_business_owners_what_cold_outreach/",
+    "author": "Free_Repeat_2734",
+    "timestamp": "2026-02-17T14:29:01.615475",
+    "tags": [
+      "Website"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7d3k3",
+    "source": "reddit",
+    "sourceName": "r/Entrepreneur",
+    "title": "Where to develop product design to test ideas?",
+    "description": "Hello,\n\nI have an idea for a product and I want to run some ads to see if people actually click on the ad/visit the landing page. This is how I would test demand  before spending any more money on it. IF there's demand, I would further start talking to suppliers etc.\n\nBUT... where/how would I design...",
+    "url": "https://reddit.com/r/Entrepreneur/comments/1r7d3k3/where_to_develop_product_design_to_test_ideas/",
+    "author": "PLAYER2up",
+    "timestamp": "2026-02-17T14:29:01.615592",
+    "tags": [
+      "Landing Page"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\ude80",
+    "designNotes": "Hero with product demo, feature sections, pricing cards. CTA-focused, conversion optimized.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7fnur",
+    "source": "reddit",
+    "sourceName": "r/web_design",
+    "title": "Anyone else just want a simple site without all the fuss?",
+    "description": "Hey everyone, so I've been lurking here for a while and just wanted to share something that actually made my life way easier. I needed a website for my small side hustle (nothing fancy, just a basic online presence) and honestly, the thought of building it myself or dealing with some huge agency was...",
+    "url": "https://reddit.com/r/web_design/comments/1r7fnur/anyone_else_just_want_a_simple_site_without_all/",
+    "author": "nikz_7",
+    "timestamp": "2026-02-17T14:29:04.017407",
+    "tags": [
+      "Website"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r6v9ak",
+    "source": "reddit",
+    "sourceName": "r/web_design",
+    "title": "Paying designers",
+    "description": "I have a newer web design business for small businesses. I offer branding as well as web design. I recently brought on a graphic designer to take part in projects with me and take a lot of the branding off my plate. \n\nWhat she does: \nDesign the graphics, colors, and fonts. \n\nWhat I do:\nTake all that...",
+    "url": "https://reddit.com/r/web_design/comments/1r6v9ak/paying_designers/",
+    "author": "TPSZDS",
+    "timestamp": "2026-02-17T14:29:04.017506",
+    "tags": [
+      "Website"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 8,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r64syv",
+    "source": "reddit",
+    "sourceName": "r/web_design",
+    "title": "Help. i lied during job interview\u2026",
+    "description": "I panicked and i lied how i took in charge of a website design project.. now they want my reference contact details which means at the final stage of the hiring process\n\nYes i was involved in the project from beginning to end but my manager was there conducting interviews and research. And i initial...",
+    "url": "https://reddit.com/r/web_design/comments/1r64syv/help_i_lied_during_job_interview/",
+    "author": "OkayAdvisor",
+    "timestamp": "2026-02-17T14:29:04.017808",
+    "tags": [
+      "Website"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 8,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r5kixi",
+    "source": "reddit",
+    "sourceName": "r/web_design",
+    "title": "Launching ChromaPick Soon -Extension Built For UI Designers",
+    "description": "Chroma Pick Chrome Extension to get the Website UI Elements ( Colors, Linear Gradient and Fonts ) and Paste Directly In Figma, and start Using It, Always had problem getting the font names and colors of the websites so I am building an extension for it.\n\nJoin the waitlist:\u00a0[https://chromapick.click/...",
+    "url": "https://reddit.com/r/web_design/comments/1r5kixi/launching_chromapick_soon_extension_built_for_ui/",
+    "author": "Brave-Pop2767",
+    "timestamp": "2026-02-17T14:29:04.017860",
+    "tags": [
+      "Website"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r4pyq0",
+    "source": "reddit",
+    "sourceName": "r/web_design",
+    "title": "Showoff Saturday: I used to run Tech User Groups in my area before covid. Now sites like meetup want",
+    "description": "This is a standard no thrills design using tailwind. One could say vanilla.\n\nThat is I guess the point because I'm trying to focus on the content the users supply rather than distract from that.\n\nAll that said, I don't assume this is great. So whats your take?   \nWhat would you do different?  \nWhat ...",
+    "url": "https://reddit.com/r/web_design/comments/1r4pyq0/showoff_saturday_i_used_to_run_tech_user_groups/",
+    "author": "fullstack_ing",
+    "timestamp": "2026-02-17T14:29:04.017929",
+    "tags": [
+      "Website"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7f8g4",
+    "source": "reddit",
+    "sourceName": "r/Wordpress",
+    "title": "Wordpress Learning",
+    "description": "Going to take over a website and learning Wordpress from the old website tech. What are some questions I should ask? I only have them for an hour and want to maximize the time. They charging by the hour for the training",
+    "url": "https://reddit.com/r/Wordpress/comments/1r7f8g4/wordpress_learning/",
+    "author": "ComplexMedicine7830",
+    "timestamp": "2026-02-17T14:29:06.395593",
+    "tags": [
+      "WordPress"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7ednc",
+    "source": "reddit",
+    "sourceName": "r/Wordpress",
+    "title": "Menu not loading on all mobile devices",
+    "description": "Hello,\n\nThe two lines in the header appear, but when I touch them nothing happens\n\nThis an iPhone.  Another friend with iPhone has same result. \n\nHowever two friends with androids have tried and one has been successful in accessing the drop down menu \n\nI am using the FSE portfolio theme\n\nThanks for ...",
+    "url": "https://reddit.com/r/Wordpress/comments/1r7ednc/menu_not_loading_on_all_mobile_devices/",
+    "author": "lovinglylissa",
+    "timestamp": "2026-02-17T14:29:06.395659",
+    "tags": [
+      "Portfolio"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\udcf8",
+    "designNotes": "Gallery-focused layout, lightbox for images, about section, contact form. Clean typography, image-first design.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7dt5s",
+    "source": "reddit",
+    "sourceName": "r/Wordpress",
+    "title": "Building a renewable energy association platform. what would you include?",
+    "description": "I\u2019m working on a full website revamp + member portal build for a renewable energy association. \n\nThis isn\u2019t just a redesign,  it\u2019s meant to become a policy and advocacy hub, a knowledge centre, a member services platform, and a gateway for partnerships and sector visibility.\n\nOn the public side, we\u2019...",
+    "url": "https://reddit.com/r/Wordpress/comments/1r7dt5s/building_a_renewable_energy_association_platform/",
+    "author": "Due-Cap9228",
+    "timestamp": "2026-02-17T14:29:06.395847",
+    "tags": [
+      "Website"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 8,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7bm4c",
+    "source": "reddit",
+    "sourceName": "r/Wordpress",
+    "title": "Can't apply kit from Elementor to Wordpress",
+    "description": "I've got an existing wordpress website, it's terrible.  I'm trying to use the Elementor Site Planner to redo my site.  This is where I'm getting stuck (1st image).  I click the \"run check\" button, it brings the pop-up, and I click \"approve &amp; connect\"....and nothing happens.  I get stuck in a loo...",
+    "url": "https://reddit.com/r/Wordpress/comments/1r7bm4c/cant_apply_kit_from_elementor_to_wordpress/",
+    "author": "PewPewGolf",
+    "timestamp": "2026-02-17T14:29:06.395960",
+    "tags": [
+      "WordPress"
+    ],
+    "intent": "medium",
+    "budget": "33k",
+    "score": 10,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r7874j",
+    "source": "reddit",
+    "sourceName": "r/Wordpress",
+    "title": "Multilingual website on Block editor",
+    "description": "Hello! I\u2019m very new to website design and recently created a homepage where we share blog entries. The site is currently entirely in German, but since our English speaking audience is growing, I\u2019d like to make the website available in English as well.\n\nI\u2019m using WordPress.org with the Twenty Twenty-...",
+    "url": "https://reddit.com/r/Wordpress/comments/1r7874j/multilingual_website_on_block_editor/",
+    "author": "peachvmomo",
+    "timestamp": "2026-02-17T14:29:06.396136",
+    "tags": [
+      "WordPress"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r77zsa",
+    "source": "reddit",
+    "sourceName": "r/Wordpress",
+    "title": "Logo too big in specific pages",
+    "description": "Hello.\n\n\n\nHere is my website:  \n[www.imagenscomemocoes.com](http://www.imagenscomemocoes.com)\n\nOn some pages of my website, the logo appears very large, as it appears behind the main image.\n\n\n\nCan anyone help me resolve the problem?\n\n  \nThanks\n\nhttps://preview.redd.it/qqf682hgi2kg1.png?width=1862&am...",
+    "url": "https://reddit.com/r/Wordpress/comments/1r77zsa/logo_too_big_in_specific_pages/",
+    "author": "Wooden-Rub-9482",
+    "timestamp": "2026-02-17T14:29:06.396202",
+    "tags": [
+      "Website"
+    ],
+    "intent": "medium",
+    "budget": "2k",
+    "score": 10,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r778g1",
+    "source": "reddit",
+    "sourceName": "r/Wordpress",
+    "title": "My pages aren't available to select when editing my navigation bar",
+    "description": "I have tried editing my navigation menu and adding in the pages for my website. However, when I go to edit my primary menu, my pages don't come up to allow me to select them to include in the navigation bar. I didn't know if this is caused by initially using a Spectra template and then removing the ...",
+    "url": "https://reddit.com/r/Wordpress/comments/1r778g1/my_pages_arent_available_to_select_when_editing/",
+    "author": "Mac_n_Ch33se",
+    "timestamp": "2026-02-17T14:29:06.396278",
+    "tags": [
+      "Website"
+    ],
+    "intent": "medium",
+    "budget": "2k",
+    "score": 10,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
+    "id": "reddit_1r76ung",
+    "source": "reddit",
+    "sourceName": "r/Wordpress",
+    "title": "WP theme suggestions?",
+    "description": "What themes are you all currently using and liking? I have multiple sites I manage and am a little tired of scrolling and finding themes. Everything feels more or less the same. Can someone share recommendations of some good themes? I am looking for something creative, maybe minimal and a little fun...",
+    "url": "https://reddit.com/r/Wordpress/comments/1r76ung/wp_theme_suggestions/",
+    "author": "palebicycle00",
+    "timestamp": "2026-02-17T14:29:06.396328",
+    "tags": [
+      "Website"
+    ],
+    "intent": "low",
+    "budget": null,
+    "score": 5,
+    "designMockup": "\ud83d\udcbb",
+    "designNotes": "Modern responsive design, clear navigation, strong CTAs, mobile-first approach.",
+    "contacted": false,
+    "notes": ""
+  },
+  {
     "source": "reddit",
     "sourceName": "r/web_design",
     "title": "Personal brand website for content creator",
